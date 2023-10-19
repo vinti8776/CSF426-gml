@@ -1,0 +1,92 @@
+#code-container {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin: 20px;
+    display: flex;
+    max-width: 80%; /* Adjust the percentage as needed */
+    margin: 0 auto; /* Center the code cell */
+
+}
+.copy-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px;
+}
+@media screen and (max-width: 768px) {
+    .copy-button {
+        position: absolute;
+        top: 0.015rem;
+        right: 0.5rem;
+        margin: 10px auto;
+    }
+}
+#codecell4{
+    max-width: 80%; /* Adjust the percentage as needed */
+    margin: 0 auto;
+
+}
+
+h1, h2, h5 {
+    text-align: center;
+    margin: 20px;
+}
+
+.custom-navbar {
+    background-color: #007bff; 
+}
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: #f1faee; 
+
+}
+.nav-link{
+    color: #f1faee; 
+}
+.navbar-brand{
+    color: #f1faee;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Adjust to your preference for spacing */
+}
+.centered-container {
+    width: 80%; /* 25% space on each side */
+    margin: 0 auto; /* Center horizontally */
+    text-align: left; /* Align text to the left */
+  }
+
+.copy-button:hover{
+    background-color: #0056b3; 
+}
+.c1{
+    font-style: italic;
+    color: #5c987c;
+}
+.kn, .k, .kc{
+    font-weight: bold;
+    color: green;
+}
+.nn{
+    font-weight: bold;
+    color: blue;
+}
+.s1,.s2{
+    color: red;
+}
+.nb{
+    color: green;
+}
+
